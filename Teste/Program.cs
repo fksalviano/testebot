@@ -49,7 +49,7 @@ double CalculatePromoValue(Sale item)
         }
 
         default:
-            return item.Product.Value;
+            return item.Value;
     };
 }
 
